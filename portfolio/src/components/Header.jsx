@@ -8,13 +8,13 @@ const Header = () => {
         <span className="text-lg font-bold text-orange-700">
           Software Developer
         </span>
-        <div className="flex gap-4 items-center my-4">
-          <h1 className="text-gray-800 dark:text-neutral-100 text-4xl 2xl:text-7xl foont-bold text-center">
-            I am a
+        <div className="flex  gap-3 items-center my-4">
+          <h1 className="text-gray-800 dark:text-neutral-100 text-3xl 2xl:text-7xl foont-bold text-center">
+            I'm a
           </h1>
           <div className="flex items-center justify-center text-white shadow-lg bg-blue-800 dark:bg-[#224cff10] dark:text-[#224cff] rounded-full">
-            <p className="text-3xl 2xl:text-5xl font-bold px-5 py-2 pb-2 text center">
-              Developer
+            <p className="text-2xl 2xl:text-5xl font-bold px-3 py-2 pb-2 text center tracking-tighter">
+              Fullstack Developer
             </p>
           </div>
         </div>
@@ -22,10 +22,50 @@ const Header = () => {
         <h1 className="text-5xl 2xl:text-7xl font-extrabold text-black dark:text-neutral-100 tracking-wider">
           Enock Omwega
         </h1>
-        <p>
+        <p className="tex-md text-black dark:text-gray-100 mt-5 2xl:mt-10">
           Fullstack Web Developer with ability to learn and collaborate in
-          rapidly changind environments and compositions.
+          rapidly changing environments and compositions.
         </p>
+        <div className="mt-10 flex gap-10">
+          <button className="bg-orange-700 text-lg text-white font-bold rounded-md py-3 px-5">
+            Hire Me
+          </button>
+          <a href="#projects">
+            <button className="text-lg text-white font-semibold rounded-md py-3 px-5 bg-black dark:bg-[#224cff10]">
+              Projects
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div className="w-[320px] h-[320px] md:w-[570px] md:h-[500px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:mt-20 lg:mt-0 flex items-center justify-center ">
+        <img
+          src={Profile}
+          alt="profile"
+          className="w-auto h-full absolute -top-5 md:-top-10"
+        />
+        <div className="relative w-full h-full rounded-full">
+          <img
+            src={Reactjs}
+            alt="recatjs"
+            className="absolute top-7 md:top-20 left-4 2xl:left-8 w-12 h-12 md:w-20 md:h-20"
+          />
+          <img
+            src={Redux}
+            alt="recatjs"
+            className="absolute bottom-7 md:bottom-20 left-3 2xl:left-12 w-12 h-12 md:w-20 md:h-20"
+          />
+          <img
+            src={Mongodb}
+            alt="recatjs"
+            className="absolute top-3 md:top-20 right-0 2xl:right-8 w-16 h-16 md:w-20 md:h-20"
+          />
+          <img
+            src={Nodejs}
+            alt="recatjs"
+            className="absolute bottom-7 md:bottom-20 right-3 2xl:right-12 w-12 h-12 md:w-20 md:h-20"
+          />
+        </div>
       </div>
     </div>
   );
