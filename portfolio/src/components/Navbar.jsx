@@ -13,7 +13,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             href="/"
             className="text-2xl font-bold text-blue-500 cursor-pointer"
           >
-            Codewave
+            Omwega Enock
           </a>
           <ul className="hidden md:flex gap-10 text-lg text-slate-800 dark:text-gray-200">
             <li className="cursor-pointer hover:text-blue-500">
