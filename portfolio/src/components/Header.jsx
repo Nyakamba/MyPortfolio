@@ -46,7 +46,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="w-[320px] h-[320px] md:w-[600px] md:h-[600px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:mt-20 lg:mt-0 flex items-center justify-center ">
+      <div className="w-[320px] h-[320px] md:w-[410px] md:h-[410px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:nt-20 lg:mt-0 flex items-center justify-center ">
         <img
           src={Profile}
           alt="profile"
@@ -58,7 +58,7 @@ const Header = () => {
           data-aos-easing="ease-in-out"
         />
         <div
-          className="relative w-full h-full rounded-full"
+          className="relative w-full h-full rounded-full "
           data-aos="fade-up"
           data-aos-offset="100"
           data-aos-delay="50"
@@ -68,22 +68,22 @@ const Header = () => {
           <img
             src={Reactjs}
             alt="recatjs"
-            className="absolute top-7 md:top-20 left-4 2xl:left-8 w-12 h-12 md:w-20 md:h-20"
+            className="absolute top-7 md:top-10 left-4 md:left-0 2xl:left-8 w-12 h-12 md:w-20 md:h-20"
           />
           <img
             src={Redux}
             alt="recatjs"
-            className="absolute bottom-7 md:bottom-20 left-3 2xl:left-12 w-12 h-12 md:w-20 md:h-20"
+            className="absolute bottom-7 md:bottom-10 left-3 md:left-0 2xl:left-12 w-12 h-12 md:w-20 md:h-20"
           />
           <img
             src={Mongodb}
             alt="recatjs"
-            className="absolute top-3 md:top-20 right-0 2xl:right-8 w-16 h-16 md:w-20 md:h-20"
+            className="absolute top-3 md:top-10 right-0  2xl:right-8 w-16 h-16 md:w-20 md:h-20"
           />
           <img
             src={Nodejs}
             alt="recatjs"
-            className="absolute bottom-7 md:bottom-20 right-3 2xl:right-12 w-12 h-12 md:w-20 md:h-20"
+            className="absolute bottom-7 md:bottom-10 right-3  2xl:right-12 w-12 h-12 md:w-20 md:h-20"
           />
         </div>
       </div>
