@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
+import About from "./components/About";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -34,6 +35,16 @@ function App() {
         <section className="w-full bg-[#061130] py-20">
           <Projects />
         </section>
+        <section
+          className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#030a1c] to-[#05174e]"
+          id="about"
+        >
+          <About />
+        </section>
+        <section
+          id="skills"
+          className="w-full px-0 lg:px-5 2xl:px-40 py-10 lg:py-0 dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-[#05174e] to-[#030a1c]"
+        ></section>
       </div>
     </div>
   );
