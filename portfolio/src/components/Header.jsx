@@ -50,7 +50,7 @@ const Header = () => {
         <img
           src={Profile}
           alt="profile"
-          className="w-auto h-full absolute -top-5 md:-top-10"
+          className="w-[250px] h-[250px] absolute top-5 md:top-10 object-cover animate-pulse"
           data-aos="fade-down"
           data-aos-offset="100"
           data-aos-delay="50"
