@@ -7,6 +7,11 @@ import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Footer from "./Footer";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [isOpen, setIsOpen] = useState(false);

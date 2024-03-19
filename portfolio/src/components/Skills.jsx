@@ -11,6 +11,11 @@ const Skills = () => {
       <div className="w-full flex flex-wrap gap-10 items-center justify-center">
         {skills.map((skill, index) => (
           <div
+            data-aos="zoom-in-down"
+            data-aos-offset="100"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
             key={index}
             className="flex gap-4 shadow-lg py-2 px-6 bg-[#04133e] rounded-full items-center hover:animate-bounce ease-in-out duration-300"
           >

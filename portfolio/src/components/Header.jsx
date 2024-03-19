@@ -4,7 +4,15 @@ import { Mongodb, Nodejs, Profile, Reactjs, Redux } from "../assets/index";
 const Header = () => {
   return (
     <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 2xl:gap-20 py-20">
-      <div className="flex flex-col mb-20 lg:mb-0">
+      <div
+        className="flex flex-col mb-20 lg:mb-0   
+      "
+        data-aos="fade-down"
+        data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         <span className="text-lg font-bold text-orange-700">
           Software Developer
         </span>
@@ -38,13 +46,25 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="w-[320px] h-[320px] md:w-[570px] md:h-[500px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:mt-20 lg:mt-0 flex items-center justify-center ">
+      <div className="w-[320px] h-[320px] md:w-[600px] md:h-[600px] 2xl:w-[700px] 2xl:h-[700px] rounded-full border border-gray-600 dark:border-gray-200 relative md:mt-20 lg:mt-0 flex items-center justify-center ">
         <img
           src={Profile}
           alt="profile"
           className="w-auto h-full absolute -top-5 md:-top-10"
+          data-aos="fade-down"
+          data-aos-offset="100"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
         />
-        <div className="relative w-full h-full rounded-full">
+        <div
+          className="relative w-full h-full rounded-full"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <img
             src={Reactjs}
             alt="recatjs"

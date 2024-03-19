@@ -20,10 +20,10 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               <a href="#home">Home</a>
             </li>
             <li className="cursor-pointer hover:text-blue-500">
-              <a href="#home">About</a>
+              <a href="#about">About</a>
             </li>
             <li className="cursor-pointer hover:text-blue-500">
-              <a href="#home">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           </ul>
           <button onClick={toggleTheme} className="p-2">
@@ -66,10 +66,10 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             <a href="#home" onClick={toggleMenu} className="cursor-pointer">
               Home
             </a>{" "}
-            <a href="#home" onClick={toggleMenu} className="cursor-pointer">
+            <a href="#about" onClick={toggleMenu} className="cursor-pointer">
               About
             </a>{" "}
-            <a href="#home" onClick={toggleMenu} className="cursor-pointer">
+            <a href="#projects" onClick={toggleMenu} className="cursor-pointer">
               Projects
             </a>
           </div>
